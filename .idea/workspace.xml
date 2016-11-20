@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a90f2ffb-1fe0-4cfd-a539-846c60e88ddd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Trees/DeepestNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ctc_arrays_strings/MergeNeededToMakeArrayPalindrome.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FullTime/Trees/DeepestNode.class" afterPath="$PROJECT_DIR$/out/production/FullTime/Trees/DeepestNode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FullTime.iws" />
@@ -25,16 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MergeSortedArraysInplace.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ctc_arrays_strings/MergeSortedArraysInplace.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="searchinSortedArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ctc_arrays_strings/searchinSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,11 +86,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeepestNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeepestNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/DeepestNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
+            <state relative-caret-position="361">
               <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeNeededToMakeArrayPalindrome.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ctc_arrays_strings/MergeNeededToMakeArrayPalindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="37" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -146,8 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/out/production/FullTime/ideserve/findPermutationOfString.class" />
-        <option value="$PROJECT_DIR$/src/ctc_arrays_strings/findDuplicateAndCheckDifference.java" />
         <option value="$PROJECT_DIR$/src/ctc_arrays_strings/firstNonRepeatingChar.java" />
         <option value="$PROJECT_DIR$/src/ctc_arrays_strings/MergeSortedArraysInplace.java" />
         <option value="$PROJECT_DIR$/src/ctc_arrays_strings/BinarySearchInSortedArray.java" />
@@ -197,6 +196,8 @@
         <option value="$PROJECT_DIR$/src/ctc_arrays_strings/GroupAllAnargramsTogether.java" />
         <option value="$PROJECT_DIR$/src/Trees/CountLeaves.java" />
         <option value="$PROJECT_DIR$/src/Trees/DeepestNode.java" />
+        <option value="$PROJECT_DIR$/src/ctc_arrays_strings/maxHeapify.java" />
+        <option value="$PROJECT_DIR$/src/ctc_arrays_strings/MergeNeededToMakeArrayPalindrome.java" />
       </list>
     </option>
   </component>
@@ -334,47 +335,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/Algorithms" />
   </component>
-  <component name="RunManager" selected="Application.DeepestNode">
-    <configuration default="false" name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ctc_arrays_strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ctc_arrays_strings.Solution" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="FullTime" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SumOfLeftLeaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Trees.SumOfLeftLeaves" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="FullTime" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.MergeNeededToMakeArrayPalindrome">
     <configuration default="false" name="GroupAllAnargramsTogether" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -423,6 +384,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Trees.DeepestNode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FullTime" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="maxHeapify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ctc_arrays_strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ctc_arrays_strings.maxHeapify" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FullTime" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MergeNeededToMakeArrayPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ctc_arrays_strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ctc_arrays_strings.MergeNeededToMakeArrayPalindrome" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -669,19 +670,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Solution" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SumOfLeftLeaves" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GroupAllAnargramsTogether" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CountLeaves" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DeepestNode" />
+      <item index="0" class="java.lang.String" itemvalue="Application.GroupAllAnargramsTogether" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CountLeaves" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DeepestNode" />
+      <item index="3" class="java.lang.String" itemvalue="Application.maxHeapify" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MergeNeededToMakeArrayPalindrome" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DeepestNode" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CountLeaves" />
-        <item index="2" class="java.lang.String" itemvalue="Application.GroupAllAnargramsTogether" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SumOfLeftLeaves" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Solution" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MergeNeededToMakeArrayPalindrome" />
+        <item index="1" class="java.lang.String" itemvalue="Application.maxHeapify" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DeepestNode" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CountLeaves" />
+        <item index="4" class="java.lang.String" itemvalue="Application.GroupAllAnargramsTogether" />
       </list>
     </recent_temporary>
   </component>
@@ -761,21 +762,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Trees/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ctc_arrays_strings/Quicksort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/findMaximumInTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1102,8 +1088,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/DeepestNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
+        <state relative-caret-position="361">
           <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ctc_arrays_strings/maxHeapify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ctc_arrays_strings/MergeNeededToMakeArrayPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="37" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
