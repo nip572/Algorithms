@@ -28,7 +28,7 @@ public class BuySellStocks {
 
     public static void main(String[] args){
 
-        int[] arr = {100, 80, 70,60,50};
+        int[] arr = {7,9,5,6,3,2};
         System.out.println(doOperation(arr));
     }
 

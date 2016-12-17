@@ -15,7 +15,7 @@ public class BinarySearchInSortedArray {
                 return -1;
             }
 
-            while(start <= end){
+            while(start < end){
                 mid = (start + end)/2;
                 if( num == arr[mid]){
                     return mid;
@@ -34,7 +34,7 @@ public class BinarySearchInSortedArray {
     public static  void main(String[] args){
 
         int[] arr = {1,2,3,4,5,6,7,8,9,10};
-        int a = doOperation(arr , 0);
+        int a = doOperation(arr , 8);
         System.out.println("value is " + a);
     }
 
