@@ -25,12 +25,12 @@ public class firstNonRepeatingChar {
 
         int min = str.length();
         for(int i = 0 ; i< arr.length ; i++){
-            if(arr[i] >= 0 && min > arr[i] ){
+            if(arr[i] >= 0 &&  arr[i] <min ){
                 min = arr[i];
                 System.out.println("min " + min);
             }
         }
-        return (min >= 0 && min < str.length())? str.charAt(min): null;
+        return (min >= 0 )? str.charAt(min): null;
 
 
 
@@ -76,7 +76,7 @@ public class firstNonRepeatingChar {
     }
 
     public static void main(String[] args) {
-        String string = "nipunahuja";
+        String string = "nipun";
         System.out.println("Output: " + doOperation(string));
     }
 }
