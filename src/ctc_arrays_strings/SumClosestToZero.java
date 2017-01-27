@@ -19,7 +19,7 @@ public class SumClosestToZero {
         int negative = Integer.MIN_VALUE;
         int positive = Integer.MAX_VALUE;
         int sum ;
-        while(start < end){
+        while(start <= end){
              sum = arr[start] + arr[end];
             if(sum  < 0){
                 if(sum > negative){
@@ -35,6 +35,7 @@ public class SumClosestToZero {
             }
             else {
                 sum = arr[start] + arr[end];
+               // positive=sum;
             }
 
         }

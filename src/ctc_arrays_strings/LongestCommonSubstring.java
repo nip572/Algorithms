@@ -11,7 +11,7 @@ public class LongestCommonSubstring {
 
     public static int doOperation(String s1 , String s2){
 
-        int[][] mat = new int[s2.length()+1][s1.length() +1];
+        int[][] mat = new int[s2.length()+1][s1.length()+1 ];
         int max =0;
 
             for(int i = 1 ; i <= s1.length() ; i++){

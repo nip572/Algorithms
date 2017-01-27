@@ -18,7 +18,7 @@ public class FindLastOccurenceOfElements {
         int ptr = -1;
         while(start <= end){
             mid = start + (end - start)/2;
-            if ((mid == end && arr[mid] == n) ||( n < arr[mid +1] && arr[mid] == n) ){
+            if ((mid == end && arr[end] == n) ||( arr[mid] < arr[mid +1] && arr[mid] == n) ){
                 return mid;
             }
           else if(arr[mid] <= n){

@@ -31,7 +31,7 @@
 
         public static void main(String[] args){
 
-            int[] arr = {11, 14, 15, 99};
+            int[] arr = {11, 14, 11,90};
             System.out.println(doOperation(arr));
         }
 
